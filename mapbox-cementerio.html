@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Mapbox básico</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%
+        }
+    </style>
+    <script>
+        //Añadir vuestor token y vuestro estilo
+        function init() {
+            mapboxgl.accessToken =
+                'pk.eyJ1IjoianVhbmpvY2MyMi1tYXBhcyIsImEiOiJja3l5N2I5YmcwY2E0MndvMnZ5Mjhxb3NtIn0.6MqA5ubWVeWJLrAvGMEKjA';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/juanjocc22-mapas/ckzfexix8005i15nzfdmxap7d',
+                center: [2.837, 41.972],
+                zoom: 15,
+                attributionControl: false
+            });
+
+        }
+    </script>
+</head>
+
+<body onload="init()">
+    <div id="map"></div>
+</body>
+
+</html>  
