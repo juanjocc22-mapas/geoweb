@@ -51,6 +51,10 @@
 <body onload="init()">
     <div class="panelTopIzquierda">
 
+        <input onclick="verEdificios(this.checked)" type="checkbox" checked />Edificios <br>
+
+        <hr>
+
         <label id="altura">Más de 0 pisos</label>
         <input  onChange="filtrarEdificios(this.value)" id="slider" type="range" min="1" max="50" step="1" value="0" />
     </div>
