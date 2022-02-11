@@ -57,6 +57,42 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
+        },{
+            id: 'volcan3',
+            alignment: 'left',
+            hidden: false,
+            title: 'Monte Popocatepetl, México',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Mexico-Popocatepetl.jpg',
+            description: 'El Popocatépetl es un estratovolcán, y los estudios paleomagnéticos que se han hecho de él indican que tiene una edad aproximada de 730,000 años. Su altura es de 5,500 m s. n. m., es de forma cónica, tiene un diámetro de 25 km en su base y la cima es el corte elíptico de un cono y tiene una orientación noreste-suroeste. La distancia entre las paredes de su cráter varía entre los 660 y los 840 m.',
+            location: {
+                center: [-98.62660783603701, 19.022852074981355],
+                zoom: 14.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: 'volcan4',
+            alignment: 'right',
+            hidden: false,
+            title: 'Monte Fujiyama, Japón',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/5/55/MtFujiTorii.jpg',
+            description: 'Se clasifica al monte Fuji como un volcán activo, pero con poco riesgo de erupción. La última erupción registrada data de 1707, durante el periodo Edo. Entonces, se formó un nuevo cráter, así como un segundo pico (llamado Hoeizan por el nombre de la era).',
+            location: {
+                center: [138.731758939712, 35.36283948499535],
+                zoom: 14.5,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         }
     ]
 };
